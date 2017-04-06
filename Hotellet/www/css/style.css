@@ -1,0 +1,33 @@
+.start{
+    background-color:rgb(194, 123, 95);
+    background-image: url(/img/hotelfikadetalj2.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}
+.stockholm{
+    font-size: 36px;
+    margin:0 auto;
+    text-align: center;
+     color : #444 ;
+}
+.branding{
+    font-size: 36px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 40px;
+    color : #444 ;
+}
+.color{
+    background-color:rgb(194, 123, 95);
+    color : #444 ;
+}
+.conform{
+    background-color: floralwhite;
+}
+.goodSizePic{
+    width:100%;
+}

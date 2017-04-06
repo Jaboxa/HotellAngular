@@ -1,0 +1,17 @@
+<ion-header-bar class="bar-dark">
+    <a href="#/tab/roomlist" class="button button-icon ion-chevron-left button-clear">
+    </a>
+</ion-header-bar>
+<ion-view>
+    <ion-content ng-controller="ListController"class="padding color">
+        <div class="padding conform">
+        <h3>Bokningsbekräftelse</h3>
+        <p>Du har bokat det {{reservation.room.roomName}}</p>
+        <p>Pris per natt är {{reservation.room.price}} kr.</p>
+        <p>Bokningen gäller från {{reservation.indate|date:fulldate}} till den {{reservation.outdate|date:fulldate}}</p>
+        <p>och är under namnet {{reservation.fname}} {{reservation.lname}}</p>  
+        <p>email: {{reservation.email}}</p>
+        <p>telefonnummer: {{reservation.phone}}</p>
+        </div>
+    </ion-content>
+</ion-view>

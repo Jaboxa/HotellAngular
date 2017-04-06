@@ -1,0 +1,37 @@
+[
+    {
+        "roomName": "Fina Enkelrummet",
+        "roomPic": "hotellrum1singel",
+        "price": 100,
+        "roomDescription": "Enkelrum med dusch och toalett i korridor. Rummet har enkelsäng, telefon och gratis Wifi, frukost inkluderad (max 1 gäst)",
+        "maxGuests": 1
+    },
+    {
+        "roomName": "Extra Fina Enkelrummet",
+        "roomPic": "hotellrum2singel",
+        "price": 200,
+        "roomDescription": "Enkelrum med privat dusch och toalett. Rummet har enkelsäng, TV, telefon och gratis Wifi, frukost inkluderad (max 1 gäst)",
+        "maxGuests": 1
+    },
+    {
+        "roomName": "Fina Dubbelrummet",
+        "roomPic": "hotellrum3dubbel",
+        "price": 300,
+        "roomDescription": "Dubbelrum med privat dusch och toalett. Rummet har dubbelsäng, skrivbord, TV och gratis Wifi, frukost inkluderad (max 2 gäster)",
+        "maxGuests": 2
+    },
+    {
+        "roomName": "Extra Fina Dubbelrummet",
+        "roomPic": "hotellrum4dubbel",
+        "price": 400,
+        "roomDescription": "Dubbelrum med privat bubbelbad och toalett. Rummet har dubbelsäng, skrivbord, TV och gratis Wifi, frukost inkluderad (max 2 gäster)",
+        "maxGuests": 2
+    },
+    {
+        "roomName": "Fina Familjerummet",
+        "roomPic": "hotellrum5familj",
+        "price": 500,
+        "roomDescription": "Dubbelrum med privat dusch och toalett. Rummet har två dubbelsängar, skrivbord, TV och gratis Wifi, frukost inkluderad (max 4 gäster)",
+        "maxGuests": 4
+    }
+]

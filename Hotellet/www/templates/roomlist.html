@@ -1,0 +1,23 @@
+<ion-header-bar class="bar-dark">
+    <a href="#/tab/reserve" class="button button-icon ion-chevron-left button-clear">
+</a>
+    <h1 class="title">Våra rum</h1>
+
+</ion-header-bar>
+
+<ion-content ng-controller="ListController">
+
+    <ion-list>
+        <ion-item ng-repeat="item in rooms | filter:search" 
+        class="item-thumbnail-left item-icon-right item-text-wrap" 
+        href="#/tab/roomlist/{{item.roomPic}}"
+        >
+            <img ng-src="img/{{item.roomPic}}.jpg" alt="{{item.roomPic}}">
+            <h2>{{item.roomName}}</h2>
+            <h3>{{item.price| currency : "SEK "}}</h3>
+            <p>{{item.roomDescription|limitTo:100}}...</p>
+
+        </ion-item>
+    </ion-list>
+
+</ion-content>
