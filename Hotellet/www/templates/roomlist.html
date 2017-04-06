@@ -1,11 +1,12 @@
-<!--header med bakåtknapp-->
 <ion-header-bar class="bar-dark">
-    <a href="#/tab/reserve" class="button button-icon ion-chevron-left button-clear"></a>
+    <a href="#/tab/reserve" class="button button-icon ion-chevron-left button-clear">
+</a>
     <h1 class="title">Våra rum</h1>
+
 </ion-header-bar>
 
 <ion-content ng-controller="ListController">
-<!--Filter i roomdescription med limitTo i filtret-->
+
     <ion-list>
         <ion-item ng-repeat="item in rooms | filter:search" 
         class="item-thumbnail-left item-icon-right item-text-wrap" 
