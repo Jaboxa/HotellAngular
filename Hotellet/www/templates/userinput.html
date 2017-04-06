@@ -1,31 +1,33 @@
+<!--header med bakåtknapp-->
 <ion-header-bar class="bar-dark">
     <a href="#/tab/roomlist" class="button button-icon ion-chevron-left button-clear">
     </a>
 </ion-header-bar>
-<ion-view>
-    <ion-content class="color" ng-controller="ListController">
-        <div class="list list-inset">
-            <form name="conform">
-                <label class="item item-input">
+<!--formulär som valideras-->
+<ion-list>
+    <ion-view>
+        <ion-content class="color" ng-controller="ListController">
+            <div class="list list-inset">
+                <form name="conform">
+                    <label class="item item-input">
                <input type="text" placeholder="Förnamn" ng-model="reservation.fname" required>
             </label>
-                <label class="item item-input">
+                    <label class="item item-input">
                <input type="text" placeholder="Efternamn" ng-model="reservation.lname"required>
             </label>
-                <form name="myEmail">
-                    <label class="item item-input">
+                    <form name="myEmail">
+                        <label class="item item-input">
                <input type="email" placeholder="Epost" ng-model="reservation.email" required>
             </label>
-                    <span ng-show="conform.$error.email">Not a valid e-mail address</span>
-                </form>
-                <label class="item item-input">
+                        <span ng-show="conform.$error.email">Not a valid e-mail address</span>
+                    </form>
+                    <label class="item item-input">
                <input type="number" placeholder="Telefon" ng-model="reservation.phone"required>
             </label>
-                <a href="#/tab/confirmation" class="button button-dark button-block" ng-disabled="conform.$invalid">Skicka</a>
-            </form>
-            
-        </div>
-                <img ng-src="img/hotelfikadetalj2.jpg" alt="bild av rykande kopp te"class="goodSizePic">
+                    <a href="#/tab/confirmation" class="button button-dark button-block" ng-disabled="conform.$invalid">Skicka</a>
+                </form>
+            </div>
+            <img ng-src="img/hotelfikadetalj2.jpg" alt="bild av rykande kopp te" class="goodSizePic">
 
-    </ion-content>
-</ion-view>
+        </ion-content>
+    </ion-view>
